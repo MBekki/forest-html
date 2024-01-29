@@ -1,0 +1,240 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  height: 80px;
+}
+.btn-close {
+  color: white !important;
+}
+.header {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://images03.nicepage.com/c461c07a441a5d220e8feb1a/ec3b31e5e1575f87a8888bd9/cvbf-min.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.header-circle {
+  width: 228px;
+  height: 228px;
+  border-radius: 50%;
+  background: #84c0a0;
+}
+.banner {
+  background-color: #f2f2f2;
+}
+.banner-btn {
+  width: 240px;
+  height: 67px;
+  background: #84c0a0;
+  border-radius: 50px;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+}
+.information-right {
+  background: #f2f2f2;
+}
+.information-circle {
+  width: 147px;
+  height: 147px;
+  background: #84c0a0;
+  border-radius: 50%;
+}
+.public {
+  background: #84c0a0;
+}
+
+.forestry-img {
+  width: 80%;
+}
+
+.forestry-title {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  width: 350px;
+  height: 170px;
+  background: #4b6256;
+  padding: 30px;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+.middle-left {
+  background-image: url("https://images01.nicepage.com/c461c07a441a5d220e8feb1a/77f91af01ad35e24a55c3a64/nmmnmn-min.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  padding: 60px;
+}
+.middle-left-section {
+  width: 335px;
+  padding: 50px;
+}
+.wildlife-img {
+  width: 340px;
+}
+.wildlife-section {
+  background: #f4f6f8;
+  padding: 40px;
+}
+.wildlife-section h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+.wildlife-section p {
+  font-size: 23px;
+  line-height: 40px;
+}
+.caring-forest {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url("https://images01.nicepage.com/c461c07a441a5d220e8feb1a/503e2657e28355119e3107fa/fgfg-min.jpg");
+  height: auto;
+  padding: 20px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.caring-forest-btn {
+  width: 170px;
+  height: 40px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 50px;
+  background: #84c0a0;
+  border: none;
+}
+.beautiful-forest-section {
+  background: #f2f2f2;
+  padding: 30px;
+  height: 100%;
+}
+.beautiful-forest-img {
+  height: 350px;
+}
+
+.beautiful-forest-section-two {
+  width: 100%;
+  height: 100%;
+  padding: 30px 50px;
+  border: 3px solid #84c0a0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.beautiful-forest-section-two h3 {
+  font-size: 25px;
+  font-weight: 500;
+}
+.footer-top {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
+    ),
+    url("https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/94612f051cad576998525dbd/pexels-photo-4406619.jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+  background-repeat: no-repeat;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.footer-text {
+  width: 50%;
+}
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  background: #333333;
+  padding: 40px 0 20px 0;
+}
+.btn-close {
+  color: white !important;
+}
+/* responsive media */
+@media screen and (max-width: 1200px) {
+  .forestry-title {
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    width: 300px;
+    height: 170px;
+    background: #4b6256;
+    padding: 30px;
+    font-size: 33px;
+    font-weight: bold;
+    color: white;
+  }
+  .wildlife-img {
+    width: 300px;
+  }
+  .footer-text {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 769px) {
+  .beautiful-forest-section-two {
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    border: 3px solid #84c0a0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 426px) {
+  .forestry-title {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    width: 220px;
+    height: 170px;
+    background: #4b6256;
+    padding: 30px;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+  }
+  .middle-left {
+    padding: 30px;
+  }
+  .middle-left-section {
+    width: 250px;
+    padding: 30px;
+  }
+  .wildlife-img {
+    width: 100%;
+  }
+  .wildlife-section {
+    background: #f4f6f8;
+    padding: 20px;
+  }
+  .wildlife-section h1 {
+    font-size: 35px;
+    font-weight: bold;
+  }
+  .wildlife-section p {
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .footer-text {
+    width: 100%;
+  }
+}
